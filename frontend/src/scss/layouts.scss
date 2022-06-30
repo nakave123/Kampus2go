@@ -1,0 +1,58 @@
+@import "./utilities";
+@import "./general";
+@import "./SassVariables.scss";
+
+//These are the classes for the Layout 1_3_1
+.ly-1-3-1 {
+  width: 100%;
+
+  &-bd-sec-left {
+    width: 15%;
+    height: calc(100vh - 2rem);
+  }
+
+  &-bd-sec-right {
+    width: 85%;
+    height: calc(100vh - 2rem);
+  }
+
+  &-bd-sec-right-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-bd-sec-right-main {
+    width: 70%;
+    align-items: center;
+  }
+
+  &-bd-sec-right-sidebar {
+    width: 30%;
+    margin: 0rem 2rem;
+  }
+}
+
+//These are the classes for the Layout 1_4
+.ly-1-4 {
+  width: 100%;
+
+  &-bd-sec-left {
+    width: 15%;
+    height: calc(100vh - 2rem);
+  }
+
+  &-bd-sec-right {
+    width: 85%;
+    height: 90vh;
+  }
+
+  &-bd-sec-right-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  &-bd-sec-right-main {
+    // width: 90%;
+    width: 100%;
+  }
+}

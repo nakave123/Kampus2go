@@ -1,0 +1,83 @@
+@import "./scss/utilities";
+@import "./scss/general";
+@import "./scss/SassVariables.scss";
+@import "./scss/layouts.scss";
+
+.app {
+  background-color: $white-color;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-state {
+  height: 100%;
+}
+
+.body-section {
+  display: flex;
+}
+.body-section-left {
+  margin-top: 10px;
+  width: 20%;
+  height: 100vh;
+}
+
+.body-section-right {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.body-section-right-content {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.body-section-search {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  margin-top: 2%;
+  border-radius: 40px;
+  height: 20px;
+  width: 300px;
+  border: 0.5px solid $grey;
+  background-color: $white-color;
+  padding: 10px;
+}
+
+.searchKey {
+  background-image: url("/assets/icons/search.png");
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+.searchLoc {
+  background-image: url("/assets/icons/telegram.png");
+  background-repeat: no-repeat;
+  background-position: 95%;
+  background-size: 25px 25px;
+}
+button {
+  margin-top: 2%;
+  height: 40px;
+  width: 80px;
+  border-radius: 40px;
+  background-color: $white-color;
+  color: $blue-color;
+  border: 0;
+  box-shadow: 1px 1px 1px $space-grey-color;
+}
+
+.body-section-right-main {
+  width: 70%;
+  height: 90%;
+}
+
+.body-section-right-sidebar {
+  width: 30%;
+}

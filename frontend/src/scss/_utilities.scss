@@ -1,0 +1,46 @@
+/*
+The following contains the css class selectors for applying margins, padding and borders.
+*/
+
+
+
+@for $i from 1 through 5 {
+    .my {
+        &-#{$i} {
+            margin : #{$i}rem 0;
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .mx {
+        &-#{$i} {
+            margin : 0 #{$i}rem;
+        }
+    }
+}
+
+
+@for $i from 1 through 5 {
+    .myx {
+        &-#{$i}-#{$i} {
+            margin : #{$i}rem #{$i}rem;
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .py {
+        &-#{$i} {
+            padding : #{$i}rem 0;
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .pyx {
+        &-#{$i}-#{$i} {
+            padding : #{$i}rem #{$i}rem;
+        }
+    }
+}
